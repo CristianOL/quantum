@@ -1,0 +1,35 @@
+version: '2'
+services:
+  front:
+    build:
+      context: ../quantum-front
+      dockerfile: Dockerfile
+    # ports:
+    #   - "8080:80"
+    links:
+      - "back:contenedor_back"
+  back:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    # ports:
+    #   - "5000:5000"
+    links:
+      - "database:contenedor_db"
+  database:
+    build:
+      context: ./scripts/mongo
+      dockerfile: Dockerfile
+    # ports:
+    #   - "27017:27017"
+    volumes:
+      - /datos_bd:/data/db
+  proxy:
+    build:
+      context: ./sistemas
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
+    links:
+      - "back:contenedor_back"
+      - "front:contenedor_front"

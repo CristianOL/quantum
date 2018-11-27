@@ -1,0 +1,9 @@
+vpc_cidr_block = "10.10.0.0/16"
+public_subnet_cidr_block = "10.10.1.0/24"
+public_subnet_cidr_block_ha = "10.10.2.0/24"
+private_subnet_cidr_block = "10.10.4.0/24"
+private_subnet_cidr_block_ha = "10.10.5.0/24"
+
+all_ips = "0.0.0.0/0"
+//ssh_rsa = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC9mqYjhUdhmz4PXuaQh32K4EW2wUc+Vwh/lT91JRsQSTcPiS9dVeS+p7wYfXWw2ggTRui+1FVmw9y1MTgfM/yYYJ5Y23hHsD+qLEMl4YZ9RCGRujuwbOC2kUx3zcpR8WMpDml7yJd+SyLDeMjbIEx8FwCknIYzzRaowbUkIkEM1iVxe3eZrBcRJ/2Goqkm21umQGYUQ4XLVMLTqn8wTY9EIi7oW2tEii8kK/WkH4ETcVuhU6RF1/IPNtQ9ibvC0I7Oh5KPEi1xQkRXVHezSqtOv7KLZux3g2rtRcGS3I+mQk5m6OS2jfRHQxjV7mp9bM1EkWyva1pAqrQG1Y0DAgJD angelsegovia@INV00879"
+ssh_rsa ="ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCY0LhtwgyERG+Y3TnVQnBjlW130Swca9Jwqgd10lvhJLDUT8u2H496w4QXDZzsaOq3Sfilw59gKNwV5EEr08941j83+RFBGD8PG/Cr6gSq9uqo7gnEsPipZ9UphSn0KkqUuuDu1Sc1eWRga9lD9EEvTKPRwWD89n6ckFypGFRkBR9ZjL/dR+3xZRZgfaT+nou8eBSL94GMlYJ7m36lcIuH71RjFxoppAVkrEkdCIuwAlrsAqRR5jOuVUN9tUIfown8zEX7aZyjNK7Y31rtt/4MsrnwMKqrv2dhThA1cpgEhtr9MuT1eOLrU8edSwQD2j7cDeKJ/gkBE3l9zjZ87Rnn angelsegovia@INV00879"

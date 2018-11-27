@@ -1,0 +1,2 @@
+docker-compose up (si no existen las imagenes)
+docker-compose up --build (si las imagenes existen ya)

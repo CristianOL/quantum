@@ -1,0 +1,2 @@
+docker build -t dkmongo:v1.0 .
+docker run -d -p 27017:27017 --name dkmng dkmongo:v1.0
